@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40602E9A1ED7E4E500744919 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602E991ED7E4E500744919 /* UIColor+Extension.swift */; };
+		40602E9C1ED7F25300744919 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602E9B1ED7F25300744919 /* PageContentView.swift */; };
+		40602E9E1ED805C500744919 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602E9D1ED805C500744919 /* RecommendViewController.swift */; };
+		40602EA01ED805D700744919 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602E9F1ED805D700744919 /* GameViewController.swift */; };
+		40602EA21ED805FA00744919 /* AmuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602EA11ED805FA00744919 /* AmuseViewController.swift */; };
+		40602EA41ED8060800744919 /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40602EA31ED8060800744919 /* FunnyViewController.swift */; };
 		40F1DE551ED6A31C00FF3D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1DE541ED6A31C00FF3D34 /* AppDelegate.swift */; };
 		40F1DE5C1ED6A31C00FF3D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F1DE5B1ED6A31C00FF3D34 /* Assets.xcassets */; };
 		40F1E1631ED7083B00FF3D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F1E1621ED7083B00FF3D34 /* Main.storyboard */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40602E991ED7E4E500744919 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		40602E9B1ED7F25300744919 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		40602E9D1ED805C500744919 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		40602E9F1ED805D700744919 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40602EA11ED805FA00744919 /* AmuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseViewController.swift; sourceTree = "<group>"; };
+		40602EA31ED8060800744919 /* FunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
 		40F1DE511ED6A31C00FF3D34 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F1DE541ED6A31C00FF3D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40F1DE5B1ED6A31C00FF3D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				40F1E1751ED7173C00FF3D34 /* UIBarButtonItem+Extension.swift */,
+				40602E991ED7E4E500744919 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -187,6 +200,10 @@
 			children = (
 				40F1E1781ED71AD400FF3D34 /* Home.storyboard */,
 				40F1E1791ED71AD400FF3D34 /* HomeViewController.swift */,
+				40602E9D1ED805C500744919 /* RecommendViewController.swift */,
+				40602E9F1ED805D700744919 /* GameViewController.swift */,
+				40602EA11ED805FA00744919 /* AmuseViewController.swift */,
+				40602EA31ED8060800744919 /* FunnyViewController.swift */,
 			);
 			path = ViewControll;
 			sourceTree = "<group>";
@@ -202,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				40F1E17E1ED71B0700FF3D34 /* PageTitleView.swift */,
+				40602E9B1ED7F25300744919 /* PageContentView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -282,12 +300,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40602EA01ED805D700744919 /* GameViewController.swift in Sources */,
 				40F1E17F1ED71B0700FF3D34 /* PageTitleView.swift in Sources */,
+				40602E9A1ED7E4E500744919 /* UIColor+Extension.swift in Sources */,
+				40602E9E1ED805C500744919 /* RecommendViewController.swift in Sources */,
 				40F1E17B1ED71AD400FF3D34 /* HomeViewController.swift in Sources */,
+				40602E9C1ED7F25300744919 /* PageContentView.swift in Sources */,
 				40F1DE551ED6A31C00FF3D34 /* AppDelegate.swift in Sources */,
 				40F1E1721ED7145200FF3D34 /* Common.swift in Sources */,
 				40F1E1761ED7173C00FF3D34 /* UIBarButtonItem+Extension.swift in Sources */,
+				40602EA21ED805FA00744919 /* AmuseViewController.swift in Sources */,
 				40F1E1651ED7087C00FF3D34 /* MainViewController.swift in Sources */,
+				40602EA41ED8060800744919 /* FunnyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
