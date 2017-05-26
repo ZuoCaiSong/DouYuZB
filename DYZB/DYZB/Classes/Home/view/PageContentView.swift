@@ -87,7 +87,7 @@ extension PageContentView : UICollectionViewDataSource{
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ContentCellID, for: indexPath)
         
       // 2.给Cell设置内容
-      for view in cell.subviews{
+      for view in cell.contentView.subviews{
             
             view.removeFromSuperview()
         }
